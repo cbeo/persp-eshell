@@ -16,7 +16,7 @@
     n))
 
 ;; bind this to a key of your choice
-(defun persp-eshell--jump-to-perps-eshell ()
+(defun persp-eshell--jump-to-persp-eshell ()
   (interactive)
   (let ((buff (persp-eshell--persp-eshell)))
     (if buff (switch-to-buffer-other-window buff)
